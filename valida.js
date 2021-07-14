@@ -14,7 +14,10 @@ function valida() {
     OU NÃO DADOS PARA SEREM
     RECEBIDOS NO FORMULÁRIO
     */
-    if (nome.value == '' || anoServico.value == '') {
+    if (nome.value == '') {
+        alert("Preencha corretamente os itens!");
+    }
+    if (anoServico.value == '') {
         alert("Preencha corretamente os itens!");
     }
 }
