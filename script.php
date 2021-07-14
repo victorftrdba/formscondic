@@ -8,25 +8,25 @@ $categorias[] = 'desenvolvedor pleno';
 $categorias[] = 'desenvolvedor senior';
 $categorias[] = 'especialista';
 
-if ($anoServico <= '1') {
+if ($anoServico == '1') {
     for($i = 0; $i <= count($categorias); $i++) {
         if($categorias[$i] == 'desenvolvedor junior') {
             echo "O desenvolvedor ".$nome." é considerado um ".$categorias[$i];
             }
         }
-    } else if ($anoServico == '3') {
+    } else if ($anoServico == '2') {
         for ($i = 0; $i <= count($categorias); $i++) {
             if($categorias[$i] == "desenvolvedor pleno") {
                 echo "O desenvolvedor ".$nome." é considerado um ".$categorias[$i];
             }
         }
-    } else if ($anoServico == '4') {
+    } else if ($anoServico == '3') {
         for($i = 0; $i <= count($categorias); $i++) {
             if($categorias[i] == 'desenvolvedor senior') {
                 echo "O desenvolvedor ".$nome." é considerado um ".$categorias[$i];
             }
         }
-    } else if ($anoServico >= '5'){
+    } else if ($anoServico >= '4'){
         for($i = 0; $i <= count($categorias); $i++) {
             if($categorias[$i] == 'especialista') {
                 echo "O desenvolvedor ".$nome." atingiu o ápice e é um ".$categorias[$i];
