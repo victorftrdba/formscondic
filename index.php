@@ -10,6 +10,18 @@
 <body>
     <p>FORMULÁRIO DE INSCRIÇÃO DE PROFISSIONAIS DE TI</p>
 
+<!-- 
+    FORMULÁRIO COM ACTION JÁ 
+    APONTANDO PARA O ARQUIVO
+    script.php RECEBER
+
+    EVENTO onClick APONTANDO
+    PARA A FUNCTION valida()
+    NO ARQUIVO valida.js
+    PARA VERIFICAR SE HÁ OU NÃO
+    DADOS PARA SEREM ENVIADOS
+ -->
+
 <form action="./script.php" method="POST" id="form">
     <p>Seu nome: <input type="text" name="nome" id="nome" required /></p>
     <p>Anos de serviço como desenvolvedor: <input  type="text" name="anoservico" id="anos" required /></p>
