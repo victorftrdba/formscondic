@@ -11,7 +11,7 @@
 
 <form action="./script.php" method="POST">
     <p>Seu nome: <input type="text" name="nome" /></p>
-    <p>Sua idade: <input  type="text" name="idade" /></p>
+    <p>Anos de serviço como desenvolvedor: <input  type="text" name="anoservico" /></p>
     <p><input type="submit" value="Enviar dados do profissional" /></p>
 </form>
 </body>
