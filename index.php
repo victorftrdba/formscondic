@@ -5,14 +5,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulário de inscrição</title>
+    <script src="./valida.js"></script>
 </head>
 <body>
     <p>FORMULÁRIO DE INSCRIÇÃO DE PROFISSIONAIS DE TI</p>
 
-<form action="./script.php" method="POST">
-    <p>Seu nome: <input type="text" name="nome" /></p>
-    <p>Anos de serviço como desenvolvedor: <input  type="text" name="anoservico" /></p>
-    <p><input type="submit" value="Enviar dados do profissional" /></p>
+<form action="./script.php" method="POST" id="form">
+    <p>Seu nome: <input type="text" name="nome" id="nome" required /></p>
+    <p>Anos de serviço como desenvolvedor: <input  type="text" name="anoservico" id="anos" required /></p>
+    <p><input type="submit" value="Enviar dados do profissional" id="anos" onClick="{valida()}" /></p>
 </form>
 </body>
 </html>
